@@ -1,0 +1,75 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../../Assets/Textures/QueenMarika_Head_Normal.tga" fileFull "D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_Normal.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 1
+    Flip Z = 0
+    Generate Z = 0
+    Object Space = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../../Assets/Textures/QueenMarika_Head_BaseColor.tga" fileFull "D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_BaseColor.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRTransmission = SRTransmissionSubsurfaceDiffusion
+    Scatter Map = @Tex file "../../Assets/Textures/QueenMarika_Head_SSS_Color.tga" fileFull "D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_SSS_Color.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scatter Depth (mm) = 1
+    Scatter Color = 0.879622 0.445201 0.341914
+    Fuzz Map = nil
+    Fuzz = 0
+    Fuzz Color = 1 1 1
+    Mask Fuzz with Gloss = 0
+    Use Translucency = 0
+    Mask Map = @Tex file "../../Assets/Textures/QueenMarika_Head_SSS.tga" fileFull "D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_SSS.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel;Mask = 0
+    Mask = 1
+    Invert;Mask = 0
+    Use Albedo Alpha = 0
+    Strict Normals = 1
+@End
+
+@Sub SRReflection = SRReflectionGGX
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = @Tex file "../../Assets/Textures/QueenMarika_Head_Roughness.tga" fileFull "D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_Roughness.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Roughness = 1
+    Invert;roughness = 0
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = nil
+    Channel = 0
+    Metalness = 0
+    Invert = 0
+@End
+
+@Sub SROcclusion = SROcclusionMap
+    Occlusion Map = @Tex file "../../Assets/Textures/QueenMarika_Head_AO.tga" fileFull "D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_AO.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel;occlusion = 0
+    Occlusion = 1
+    UV Set = 0
+    Vertex Channel = 0
+    Cavity Map = nil
+    Channel;cavity = 0
+    Diffuse Cavity = 1
+    Specular Cavity = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

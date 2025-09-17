@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e810ee5451c587942939064981846290
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200530
+  packageName: Init(args)
+  packageVersion: 1.5.2
+  assetPath: Packages/com.sisus.init-args/Scripts/Services/ScopedServiceInitializer.cs
+  uploadId: 783147

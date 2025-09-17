@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74c66b01dc479904bb481147129af527
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 33620
+  packageName: Dance MoCap 01
+  packageVersion: 1.4.1
+  assetPath: Assets/Dance_MoCap_01_2022_Update/Dance_MoCap_01_2022.controller
+  uploadId: 588272

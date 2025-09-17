@@ -1,0 +1,71 @@
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = nil
+    Channel = 0
+    Roughness = 0.59901
+    Invert;roughness = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = nil
+    Color = 0.021072 0.021072 0.021072
+@End
+
+@Sub SRDiffusion = SRDiffusionScatter
+    Scatter Map = nil
+    Scatter Depth (mm) = 1.23596
+    Scatter Color = 1 1 1
+    Translucency Map = nil
+    Translucency = 0.397727
+    Translucency Color = 1 1 1
+    Translucency Depth (mm) = 1000
+    Translucency Scatter = 0.391089
+    Fuzz Map = nil
+    Fuzz = 1
+    Fuzz Color = 1 1 1
+    Mask Fuzz with Gloss = 0
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = nil
+    Channel = 0
+    Metalness = 0
+    Invert = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRReflection2 = SRReflectionAnisotropic
+    Horizon Occlusion = 1
+    Secondary Gloss = 0.470881
+    Secondary Intensity = 1.79804
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 1
+    Secondary Fresnel Color = 1 1 1
+    Direction Map = nil
+    Scale & Bias = 1
+    Swap X/Y Direction = 0
+    Anisotropy = 1
+    Anisotropy Direction = 0
+    Refraction Shift = 0
+@End
+
+@Sub SRTransparency = SRTransparencyDither
+    Use Albedo Alpha = 1
+    Alpha Map = nil
+    Channel = 3
+    Alpha = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

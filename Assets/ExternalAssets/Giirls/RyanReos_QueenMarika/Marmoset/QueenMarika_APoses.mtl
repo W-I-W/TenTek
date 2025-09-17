@@ -1,0 +1,138 @@
+# Blender 3.3.1 MTL File: 'QueenMarikaAPose.blend'
+# www.blender.org
+
+newmtl Cornea
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Eyelashes
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Eyelashes.tga
+map_d D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Eyelashes_Opacity.tga
+
+newmtl Eyeshadow
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_d D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/eyeshadow.tga
+
+newmtl FABRIC_1_FRONT_1309
+Ns 28.763235
+Ka 1.000000 1.000000 1.000000
+Kd 0.819608 0.819608 0.819608
+Ks 0.075000 0.075000 0.075000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Heel
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Heels_Roughness.tga
+map_refl D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Heels_Metallic.tga
+
+newmtl QueenMarika_Body
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Body_Roughness_Wet.tga
+map_refl D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Body_Metallic.tga
+map_Ke D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Body_Emissive_Tattoo.tga
+
+newmtl QueenMarika_Circlet
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Circlet_Roughness.tga
+map_refl D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Circlet_Metallic.tga
+
+newmtl QueenMarika_Dress
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_Roughness.tga
+map_d D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_BaseColor.tga
+map_refl D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_Metallic.tga
+
+newmtl QueenMarika_DressInner
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_DressInner_Roughness.tga
+map_refl D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_DressInner_Metallic.tga
+
+newmtl QueenMarika_Dress_Necklace
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_Roughness.tga
+map_d D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_BaseColor.tga
+map_refl D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_Metallic.tga
+map_Ke D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Dress_Emissive.tga
+
+newmtl QueenMarika_Eyes
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Eyes_BaseColor.tga
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Eyes_Roughness.tga
+
+newmtl QueenMarika_Hair
+Ns 562.500000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Ks D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Hair_specular.tga
+map_d D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Hair_opacity.tga
+
+newmtl QueenMarika_Head
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns D:/RyanReos_3DCG/CGTrader/RyanReos_QueenMarika/Assets/Textures/QueenMarika_Head_Roughness_Wet.tga

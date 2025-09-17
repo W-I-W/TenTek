@@ -1,0 +1,11 @@
+{
+    "asset": "c39a6a352065d3d4cb66619d9970a28e",
+    "fileName": "019908d2-2c65-74f4-8883-462d5528418e.pose.json",
+    "prompt": "smooth movement of hands along the body",
+    "negativePrompt": "",
+    "model": "a9c27ca4-3ec9-43e8-96cd-ee891aba64c5",
+    "modelName": "Text to Motion",
+    "customSeed": 83441398,
+    "w3CTraceId": "67434943394865ceef39a5fe3228fa9b",
+    "isTrimmed": false
+}

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4022ae1dfc6003149a6b4fd78a5c7618
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200530
+  packageName: Init(args)
+  packageVersion: 1.5.2
+  assetPath: Packages/com.sisus.init-args/Scripts/Editor/Inspector/EditorDecorators/ConstructorBehaviourT6EditorDecorator.cs
+  uploadId: 783147

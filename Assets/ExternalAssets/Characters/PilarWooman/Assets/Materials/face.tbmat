@@ -1,0 +1,72 @@
+@Sub SRSubdivision = SRSubdivisionPN
+    Tessellation = 128
+    Smoothing = 1
+@End
+
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../Textures/face_Normal.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/face_Normal.tga" srgb 0 filter 1 mip 0 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = @Tex file "../Textures/face_Roughness.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/face_Roughness.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Roughness = 1
+    Invert;roughness = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/face_BaseColor.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/face_BaseColor.tga" srgb 1 filter 1 mip 0 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionScatter
+    Scatter Map = nil
+    Scatter Depth (mm) = 0.1
+    Scatter Color = 1 0.55 0.45
+    Translucency Map = nil
+    Translucency = 0
+    Translucency Color = 1 0.25 0.125
+    Translucency Depth (mm) = 1
+    Translucency Scatter = 0.5
+    Fuzz Map = nil
+    Fuzz = 0.5
+    Fuzz Color = 1 1 1
+    Mask Fuzz with Gloss = 1
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = @Tex file "../Textures/face_Metallic.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/face_Metallic.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Metalness = 1
+    Invert = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRReflection2 = SRReflectionBlinnPhong
+    Horizon Occlusion = 1
+    Secondary Gloss = 1
+    Secondary Intensity = 0.1086
+    Secondary Intensity Color = 0.947509 0.904982 0.818489
+    Secondary Fresnel = 0.3
+    Secondary Fresnel Color = 1 1 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

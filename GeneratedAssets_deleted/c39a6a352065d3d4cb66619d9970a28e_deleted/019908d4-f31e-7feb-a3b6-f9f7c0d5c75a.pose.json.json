@@ -1,0 +1,11 @@
+{
+    "asset": "c39a6a352065d3d4cb66619d9970a28e",
+    "fileName": "019908d4-f31e-7feb-a3b6-f9f7c0d5c75a.pose.json",
+    "prompt": "The character places both hands near the shoulders, then slowly moves them down along the torso in a graceful motion. The movement should feel calm, controlled, and fluid.",
+    "negativePrompt": "",
+    "model": "a9c27ca4-3ec9-43e8-96cd-ee891aba64c5",
+    "modelName": "Text to Motion",
+    "customSeed": 364343128,
+    "w3CTraceId": "1cd0c7fe1fe9c8745a98647550d4d086",
+    "isTrimmed": false
+}

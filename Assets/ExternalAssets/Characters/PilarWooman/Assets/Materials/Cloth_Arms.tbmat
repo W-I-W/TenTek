@@ -1,0 +1,61 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../Textures/Cloth_Arms_Normal.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/Cloth_Arms_Normal.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = @Tex file "../Textures/Cloth_Arms_Roughness.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/Cloth_Arms_Roughness.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Roughness = 1
+    Invert;roughness = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/Cloth_Arms_BaseColor.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/Cloth_Arms_BaseColor.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionMicrofiber
+    Fuzz Map = nil
+    Fuzz = 0.221591
+    Fuzz Color = 1 1 1
+    Fuzz Scatter = 0
+    Fuzz Occlusion = 1
+    Mask Fuzz with Gloss = 1
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = @Tex file "../Textures/Cloth_Arms_Metallic.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/Cloth_Arms_Metallic.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Metalness = 1
+    Invert = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRReflection2 = SRReflectionGGX
+    Horizon Occlusion = 1
+    Secondary Gloss = 1
+    Secondary Intensity = 0.5
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 1
+    Secondary Fresnel Color = 1 1 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

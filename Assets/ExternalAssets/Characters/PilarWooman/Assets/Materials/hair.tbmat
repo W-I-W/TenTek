@@ -1,0 +1,93 @@
+@Sub SRSubdivision = SRSubdivisionPN
+    Tessellation = 128
+    Smoothing = 1
+@End
+
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../Textures/hair1_Normal.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/hair1_Normal.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 1
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = @Tex file "../Textures/hair1_Roughness.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/hair1_Roughness.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Roughness = 0.5
+    Invert;roughness = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/hair1_BaseColor.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/hair1_BaseColor.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 0.391573 0.396755 0.496933
+@End
+
+@Sub SRDiffusion = SRDiffusionScatter
+    Scatter Map = nil
+    Scatter Depth (mm) = 0.000266802
+    Scatter Color = 1 0.55 0.45
+    Translucency Map = nil
+    Translucency = 0.232955
+    Translucency Color = 1 0.25 0.125
+    Translucency Depth (mm) = 8.87486
+    Translucency Scatter = 1
+    Fuzz Map = nil
+    Fuzz = 1
+    Fuzz Color = 1 1 1
+    Mask Fuzz with Gloss = 1
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = @Tex file "../Textures/hair1_Metallic.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/hair1_Metallic.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Metalness = 1
+    Invert = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRReflection2 = SRReflectionAnisotropic
+    Horizon Occlusion = 0.960788
+    Secondary Gloss = 1
+    Secondary Intensity = 1
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 0.0340909
+    Secondary Fresnel Color = 1 1 1
+    Direction Map = @Tex file "../Textures/hairdirection.tga" fileFull "G:/CGTrader/RyanReos_PillarWoman/Assets/Textures/hairdirection.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Swap X/Y Direction = 0
+    Anisotropy = 1
+    Anisotropy Direction = 0
+    Refraction Shift = 0.5
+@End
+
+@Sub SREmissive = SREmissiveMap
+    Emissive Map = nil
+    Color = 1 1 1
+    Intensity = 0
+    UV Set = 0
+    Glow = 0.206881 0.206881 0.206881
+@End
+
+@Sub SRTransparency = SRTransparencyDither
+    Use Albedo Alpha = 1
+    Alpha Map = nil
+    Channel = 3
+    Alpha = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

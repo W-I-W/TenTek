@@ -1,0 +1,11 @@
+{
+    "asset": "c39a6a352065d3d4cb66619d9970a28e",
+    "fileName": "019908d4-1b27-7c48-9124-9ab52db63797.pose.json",
+    "prompt": "The character is standing upright. Their hands rest gently on the chest, then slowly glide downward along the torso. The movement should be smooth, continuous, and natural, with an emphasis on fluidity and calm pacing.",
+    "negativePrompt": "",
+    "model": "a9c27ca4-3ec9-43e8-96cd-ee891aba64c5",
+    "modelName": "Text to Motion",
+    "customSeed": 1141116504,
+    "w3CTraceId": "8810a6fb8b47bd9c17528c08bd5c1d13",
+    "isTrimmed": false
+}

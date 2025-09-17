@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9e0ae74b4282454eb116f9cc5fc2788
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200530
+  packageName: Init(args)
+  packageVersion: 1.5.2
+  assetPath: Packages/com.sisus.init-args/Scripts/ConstructorBehaviour/ConstructorBehaviourT5.cs
+  uploadId: 783147

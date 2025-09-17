@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e4aa48d4dd94bb743a773489e16a25b1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20282
+  packageName: Huge FBX Mocap Library part 2
+  packageVersion: 1.0
+  assetPath: Assets/Huge Mocap Library/mocap animations/cmu-mocap-index-text.txt
+  uploadId: 9434

@@ -1,0 +1,11 @@
+{
+    "asset": "c39a6a352065d3d4cb66619d9970a28e",
+    "fileName": "019908d5-1583-7884-81bc-da52abcecf81.pose.json",
+    "prompt": "Starting with hands resting across the chest, the character gradually lowers them in a smooth downward motion along the body. The pace is steady, soft, and continuous.",
+    "negativePrompt": "",
+    "model": "a9c27ca4-3ec9-43e8-96cd-ee891aba64c5",
+    "modelName": "Text to Motion",
+    "customSeed": 223987397,
+    "w3CTraceId": "c0c78e17775cfe4e039711ad20d20441",
+    "isTrimmed": false
+}

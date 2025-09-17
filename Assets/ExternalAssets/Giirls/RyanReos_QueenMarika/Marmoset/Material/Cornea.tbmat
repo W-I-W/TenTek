@@ -1,0 +1,87 @@
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = nil
+    Color = 0.8 0.8 0.8
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRTransmission = SRTransmissionRefraction
+    Tint = 1 1 1
+    Use Albedo = 1
+    Refractive Index Map = nil
+    Channel;index = 0
+    Refractive Index = 1
+    Derive Refractive Index from Reflectivity = 1
+    Absorption = 1
+    Color;absorption = 1 1 1
+    Scatter = 0
+    Density = 0
+    Anisotropy = -1
+    Distortion Limit = 0
+    Mask Map = nil
+    Channel;Mask = 0
+    Mask = 1
+    Invert;Mask = 0
+    Use Albedo Alpha = 0
+    Strict Normals = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = nil
+    Channel = 0
+    Roughness = 0
+    Invert;roughness = 0
+@End
+
+@Sub SRReflectivity = SRReflectivityIOR
+    Refractive Index Map = nil
+    Channel;index = 0
+    Refractive Index = 1
+    Metalness Map = nil
+    Channel;metalness = 0
+    Metalness = 0
+    Invert;metalness = 0
+@End
+
+@Sub SRClearcoatReflection = SRReflectionGGX
+@End
+
+@Sub SRClearcoatMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = nil
+    Channel = 0
+    Roughness = 0
+    Invert;roughness = 0
+@End
+
+@Sub SRClearcoatReflectivity = SRReflectivitySpecularMap
+    Specular Map = nil
+    Channel;specular = 4
+    Intensity = 0.1
+    Color = 1 1 1
+    Fresnel = 1
+    Color;fresnel = 1 1 1
+    Conserve Energy = 1
+@End
+
+@Sub SRTransparency = SRTransparencyDither
+    Use Albedo Alpha = 1
+    Alpha Map = nil
+    Channel = 3
+    Alpha = 0.5
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

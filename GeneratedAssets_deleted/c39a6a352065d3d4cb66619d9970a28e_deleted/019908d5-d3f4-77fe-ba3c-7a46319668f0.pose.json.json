@@ -1,0 +1,11 @@
+{
+    "asset": "c39a6a352065d3d4cb66619d9970a28e",
+    "fileName": "019908d5-d3f4-77fe-ba3c-7a46319668f0.pose.json",
+    "prompt": "Hands are first positioned on the chest, then lowered gradually along the body with no abrupt stops. The transition should highlight fluidity and natural grace.",
+    "negativePrompt": "",
+    "model": "a9c27ca4-3ec9-43e8-96cd-ee891aba64c5",
+    "modelName": "Text to Motion",
+    "customSeed": 1325396155,
+    "w3CTraceId": "b906c069971a4d391b2882549504a33a",
+    "isTrimmed": false
+}

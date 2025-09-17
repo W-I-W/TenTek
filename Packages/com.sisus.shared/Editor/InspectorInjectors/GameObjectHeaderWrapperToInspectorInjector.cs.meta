@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6efe97e073f84bee88ca9cf1ac70db8d
+timeCreated: 1734089887
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200530
+  packageName: Init(args)
+  packageVersion: 1.5.2
+  assetPath: Packages/com.sisus.shared/Editor/InspectorInjectors/GameObjectHeaderWrapperToInspectorInjector.cs
+  uploadId: 783147
